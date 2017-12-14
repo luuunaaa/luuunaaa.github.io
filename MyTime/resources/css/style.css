@@ -3,12 +3,30 @@ header{
   font-family: Verdana;
   font-size:14px;
   font-weight: bold;
+  position: fixed;
 }
 
-.logo{
-  color:MediumAquamarine;
-}
-
-nav{
+nav li{
   display: inline-block;
+  flex-wrap: wrap;
 }
+ nav a{
+   color: black;
+ }
+
+ .logo{
+   color:MediumAquamarine;
+ }
+
+ .column{
+   dispaly: flex;
+ }
+.large{
+   width: 630px;
+ }
+ .medium{
+   width: 300px;
+ }
+ .small{
+   width: 240px;
+ }
