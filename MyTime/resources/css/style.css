@@ -4,6 +4,7 @@ header{
   font-size:14px;
   font-weight: bold;
   position: fixed;
+  border: 1px solid black;
 }
 
 nav li{
@@ -19,14 +20,39 @@ nav li{
  }
 
  .column{
-   dispaly: flex;
+   display: flex;
+   border: 1px solid black;
  }
 .large{
    width: 630px;
+    border: 1px solid black;
  }
  .medium{
    width: 300px;
+  border: 2px solid black;
  }
  .small{
    width: 240px;
+    border: 1px solid black;
  }
+
+
+.large .part1{
+  border: 2px solid black;
+}
+
+.large .part2{
+  border: 2px solid black;
+}
+
+.large .part3{
+  border: 2px solid black;
+}
+
+.medium .part1{
+  border: 2px solid black;
+}
+
+.medium .part2{
+  border: 2px solid black;
+}
