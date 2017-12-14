@@ -9,7 +9,6 @@ header{
 
 nav li{
   display: inline-block;
-  flex-wrap: wrap;
 }
  nav a{
    color: black;
@@ -17,6 +16,7 @@ nav li{
 
  .logo{
    color:MediumAquamarine;
+   display:inline;
  }
 
  .column{
@@ -55,4 +55,43 @@ nav li{
 
 .medium .part2{
   border: 2px solid black;
+}
+
+.TextOnImage{
+  font-family: Georgia;
+  font-size: 17px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.MainStory{
+  font-family:Georgia;
+  font-size:40px;
+  font-weight: bold;
+
+}
+
+.Image1{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+
+.Image2{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  display: flex;
+}
+
+.Image3{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+.Image4{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
 }
