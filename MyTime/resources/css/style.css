@@ -22,11 +22,18 @@ nav li{
  .column{
    display: flex;
    border: 1px solid black;
+   margin-top: 100px;
  }
 .large{
    width: 630px;
     border: 1px solid black;
+    margin: 5px;
  }
+
+ .large .story{
+   display: inline-flex;
+ }
+
  .medium{
    width: 300px;
   border: 2px solid black;
