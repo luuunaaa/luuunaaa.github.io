@@ -6,5 +6,91 @@ body{
   color: seashell;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
 
+}
+
+/* header */
+#header{
+  height: 69px;
+  width: 100%;
+  border: 1px solid seashell;
+  display: flex;
+  position: fixed;
+  background-color: black;
+  padding: 8px;
+  margin-top: 0;
+}
+
+.logo{
+  height: 50px;
+  padding-left: 10px;
+  border: 1px solid seashell;
+}
+
+nav{
+  border: 1px solid seashell;
+  margin-left: 60%;
+}
+
+nav li{
+  display: inline-block;
+  padding: 20px 10px;
+  text-align: right;
+  border: 1px solid seashell;
+}
+
+nav a{
+  color: white;
+}
+
+/*mission*/
+
+
+.mission .image-content{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+border: 1px solid seashell;
+
+}
+
+.mission .content{
+  background-color: black;
+  width: 1200;
+  align-items: center;
+  border: 1px solid seashell;
+}
+
+/*featured*/
+
+.featured{
+  width: 1000px;
+  padding-top: 10px;
+  padding: 10px;
+  border: 1px solid seashell;
+}
+
+.Teas{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured img{
+  height: 200px;
+  width: 300px;
+}
+
+.image{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  border: 1px solid seashell;
+}
+
+.Tea{
+  border: 1px solid seashell;
 }
