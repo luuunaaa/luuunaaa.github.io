@@ -1,0 +1,103 @@
+
+/*universal style*/
+
+html{
+  font-size: 18px;
+}
+
+body{
+  font-family: Helvetica;
+}
+
+/*header*/
+
+#header{
+  display: flex;
+  width: 100%;
+  border: 1px black solid;
+  background-color: black;
+}
+
+.icon{
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+
+.CompanyName{
+  color: White;
+}
+
+/*entrance page*/
+
+#entrance{
+  background-image: url("./css/resources/entrance page.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25rem;
+  width: 960px;
+}
+
+#entrance #background{
+  width: 100%;
+  display: flex;
+}
+
+#entrance #content{
+  background-color: black;
+  color: White;
+  width: 20rem;
+  height: 8rem;
+  margin-top: 9rem;
+}
+
+#entrance #content h5{
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+  padding-left: 3rem;
+}
+
+#entrance #content h2{
+  padding-left: 3rem;
+}
+
+/*menu bar*/
+
+#MenuBar{
+  display: flex;
+  padding: 20px 10px;
+  width: 100%;
+  background-color: Red;
+  justify-content: space-around;
+}
+
+.MenuTitle{
+  color: White;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+
+}
+
+/*products*/
+
+#Products{
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem;
+}
+
+.product{
+  border: 4px solid black;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#Products img{
+  height: 9rem;
+  width: 9rem;
+  margin: 2rem 1rem;
+}
+
+#Products .ProductName{
+  background-color: black;
+  color: White;
+}
