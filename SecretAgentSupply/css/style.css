@@ -46,18 +46,23 @@ body{
   background-color: black;
   color: White;
   width: 20rem;
-  height: 8rem;
+  height: 10rem;
   margin-top: 9rem;
+  margin-left: 9rem;
 }
 
 #entrance #content h5{
   padding-top: 2rem;
   padding-bottom: 0.25rem;
   padding-left: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 #entrance #content h2{
   padding-left: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /*menu bar*/
@@ -66,7 +71,7 @@ body{
   display: flex;
   padding: 20px 10px;
   width: 100%;
-  background-color: Red;
+  background-color: firebrick;
   justify-content: space-around;
 }
 
@@ -100,4 +105,60 @@ body{
 #Products .ProductName{
   background-color: black;
   color: White;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/*other information*/
+
+#OtherInformation{
+  display: flex;
+  justify-content: space-around;
+}
+
+.information{
+  width: 35%;
+  height: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.information #location{
+  color: White;
+  background-color: black;
+  height: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.information #hours{
+  background-color: black;
+  color: White;
+  height: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+#copyright{
+  background-color: black;
+  width: 100%;
+  height: 5rem;
+  color: White;
+  text-align: left;
+  padding-left: 8rem;
+  display: flex;
+  align-items: center;
 }
