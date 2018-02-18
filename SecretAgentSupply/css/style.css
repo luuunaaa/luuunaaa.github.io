@@ -30,17 +30,25 @@ body{
 /*entrance page*/
 
 #entrance{
-  background-image: url("./css/resources/entrance page.jpeg");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   height: 25rem;
-  width: 960px;
 }
 
-#entrance #background{
+#entrance .background{
   width: 100%;
   display: flex;
 }
+
+@media only screen and (max-width: 1024) {
+  #entrance #content{
+    margin-left: 0rem;
+  }
+}
+
+
 
 #entrance #content{
   background-color: black;
@@ -49,9 +57,10 @@ body{
   height: 10rem;
   margin-top: 9rem;
   margin-left: 9rem;
+  position: relative;
 }
 
-#entrance #content h5{
+#entrance #content #New{
   padding-top: 2rem;
   padding-bottom: 0.25rem;
   padding-left: 3rem;
@@ -63,6 +72,22 @@ body{
   padding-left: 3rem;
   font-size: 2rem;
   font-weight: bold;
+}
+@media only screen and (max-width: 470){
+  #entrance #content h2{
+    font-size: 1rem;
+  }
+}
+
+#SportBike{
+  margin-bottom: 8rem;
+}
+
+@media only screen and (max-width: 470)  {
+  #entrance #content h5{
+    font-size: 0.77rem;
+
+  }
 }
 
 /*menu bar*/
@@ -82,6 +107,23 @@ body{
 
 }
 
+.mobile-MenuTitle{
+  display: none;
+}
+
+@media only screen and (max-width: 1024px){
+
+.MenuTitle{
+  display: none;
+}
+
+  .mobile-MenuTitle{
+    display: block;
+    color: White;
+    text-align: center;
+  }
+}
+
 /*products*/
 
 #Products{
@@ -97,8 +139,7 @@ body{
 }
 
 #Products img{
-  height: 9rem;
-  width: 9rem;
+  max-width: 8rem;
   margin: 2rem 1rem;
 }
 
@@ -111,13 +152,43 @@ body{
   justify-content: center;
 }
 
+@media only screen and (max-width: 1024px){
+  .product{
+    width: 47%;
 
+  }
+
+  .product.glasses{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px){
+  .product{
+    width: 90%;
+  }
+
+  .product.glasses,.watch{
+    display: none;
+  }
+}
 
 /*other information*/
 
 #OtherInformation{
   display: flex;
   justify-content: space-around;
+}
+
+@media only screen and (max-width:  1024px){
+  #OtherInformation{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .hours,.location{
+    width: 35%
+  }
 }
 
 .information{
@@ -130,7 +201,8 @@ body{
   padding-left: 2rem;
 }
 
-.information #location{
+.hours,
+.location{
   color: White;
   background-color: black;
   height: 5rem;
@@ -141,16 +213,14 @@ body{
   align-items: center;
 }
 
-.information #hours{
-  background-color: black;
-  color: White;
-  height: 5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  display: flex;
-  align-items: center;
+@media only screen and (max-width: 470px){
+  .information{
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 0.5rem;
+  }
 }
+
 
 #copyright{
   background-color: black;
