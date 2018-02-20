@@ -42,12 +42,15 @@ header {
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
   z-index: 5;
+  height: 85px;
 }
 
 header .content {
   display: flex;
   align-items: center;
   padding: 1.875rem;
+  height: 65px;
+  margin-top: 0;
 }
 
 header .logo {
@@ -117,7 +120,14 @@ header .mobile {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 43.5rem;
+  height: 100%;
+  background-image: url('banner-landingpage.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  padding-left: 100px;
+  margin-bottom: 0rem;
 }
 
 #sign-up-cta {
@@ -125,6 +135,7 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  padding-bottom: 150px;
 }
 
 #sign-up-cta .content {
@@ -144,9 +155,10 @@ header .mobile {
   font-size: 2.25rem;
 }
 
-#sign-up-cta span strong {
-  font-weight: bold;
+#sign-up-cta span {
+ font-weight: normal;
 }
+
 
 #sign-up-cta .cursive {
   font-family: "Damion", cursive;
@@ -160,6 +172,9 @@ header .mobile {
 #sign-up-cta .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+  border-radius: 4px;
+  background-color: #4A4A4A;
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -219,16 +234,32 @@ header .mobile {
 
 .feature {
   flex: 1;
-  padding: 2rem;
-  margin: 0px 1.25rem;
+  margin: 64px 1rem 46px 1rem;
   background-color: white;
+  padding: 2rem 2rem 0rem 2rem;
+  justify-content: center;
+}
+
+#features-section .center{
+  justify-content: center;
 }
 
 .feature .image-container {
-  width: 90%;
   height: 65%;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
+
+.feature img{
+  width: 100%;
+  height: 75%;
+}
+
+.feature .content{
+  height: 187px;
+  padding-top: 40px;
+}
+
 
 .feature h2 {
   padding-bottom: .5rem;
@@ -278,7 +309,7 @@ header .mobile {
 
 #filters-section .content {
   padding: 0 .625rem;
-  margin-bottom: 5rem;
+  margin-bottom: 0rem;
 }
 
 #filters-section .content h2 {
@@ -297,7 +328,22 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
+  justify-content: space-around;
+  border: solid black;
+  margin-top: 0rem;
 }
+
+#filters-section .image-container{
+  width: 25%;
+  height: 75%;
+}
+
+#filters-section .image-container img{
+  width: 100%;
+  height: 90%;
+}
+
 
 @media only screen and (max-width: 760px) {
   #filters-section {
@@ -333,13 +379,19 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  display: flex;
+  padding: 80px;
+  justify-content: center;
+  align-items: center;
 }
 
 #quotes-section content {
   padding: 5rem 0;
+  display: flex;
+  justify-content: center;
 }
 
-#quotes-section quote {
+#quotes-section span {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -373,13 +425,16 @@ header .mobile {
 
 footer {
   background-color: #9b9b9b;
+  height: 62px;
   padding: 1.5rem 2rem;
+  margin-bottom: 0rem;
 }
 
 footer .content {
   color: white;
   display: flex;
   font-size: .75rem;
+  height: 62px;
 }
 
 footer .copyright {
